@@ -1,0 +1,6 @@
+ftp:
+    client:
+        server: ftp://localhost
+        port: 2221
+        user: test
+        password: test
