@@ -32,6 +32,7 @@ public class FtpClient {
         }
 
         ftp.login(user, password);
+        log.debug("client logged in successfully")
     }
 
     void close() throws IOException {
